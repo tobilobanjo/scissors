@@ -1,10 +1,10 @@
 .env
 .vscode/
 logs
-client/.next/
+src/client/.next/
 node_modules/
-client/config.js
-client/old.config.js
+src/client/config.js
+src/client/old.config.js
 server/config.js
 server/old.config.js
 production-server
