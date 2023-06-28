@@ -1,7 +1,8 @@
 const { parsed: localEnv } = require("dotenv").config();
 
 module.exports = {
-  distDir: 'build',
+  // distDir: 'build',
+  generateBuildId: () => 'build-id',
   publicRuntimeConfig: {
     CONTACT_EMAIL: localEnv && localEnv.CONTACT_EMAIL,
     SITE_NAME: localEnv && localEnv.SITE_NAME,
