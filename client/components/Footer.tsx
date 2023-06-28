@@ -26,13 +26,9 @@ const Footer: FC = () => {
     >
       {!isAuthenticated && <ReCaptcha />}
       <Text fontSize={[12, 13]} py={2}>
-        Made with love by{" "}
-        <ALink href="//todo" title="Me" target="_blank">
-          Me
-        </ALink>
-        .{" | "}
+        Made with love.{" | "}
         <ALink
-          href="https://github.com/todo"
+          href="https://github.com/tobilobanjo/scissors"
           title="GitHub"
           target="_blank"
         >

@@ -9,9 +9,8 @@ import { errorMessage } from "../../utils";
 import { Colors } from "../../consts";
 import Animation from "../Animation";
 import { Button } from "../Button";
-import Text, { H2 } from "../Text";
+import Text from "../Text";
 import { Col } from "../Layout";
-import ALink from "../ALink";
 import Icon from "../Icon";
 
 const ApiKey = styled(Text).attrs({
@@ -44,18 +43,18 @@ const SettingsApi: FC = () => {
 
   return (
     <Col alignItems="flex-start" maxWidth="100%">
-      <H2 mb={4} bold>
-        API
-      </H2>
-      <Text mb={4}>
-        In additional to this website, you can use the API to create, delete and
-        get shortened URLs. If
-        {" you're"} not familiar with API, {"don't"} generate the key. DO NOT
-        share this key on the client side of your website.{" "}
-        <ALink href="https://todo" title="API Docs" target="_blank">
-          Read API docs.
-        </ALink>
-      </Text>
+      {/*<H2 mb={4} bold>*/}
+      {/*  API*/}
+      {/*</H2>*/}
+      {/*<Text mb={4}>*/}
+      {/*  In additional to this website, you can use the API to create, delete and*/}
+      {/*  get shortened URLs. If*/}
+      {/*  {" you're"} not familiar with API, {"don't"} generate the key. DO NOT*/}
+      {/*  share this key on the client side of your website.{" "}*/}
+      {/*  <ALink href="https://todo" title="API Docs" target="_blank">*/}
+      {/*    Read API docs.*/}
+      {/*  </ALink>*/}
+      {/*</Text>*/}
       {apikey && (
         <Flex alignItems={["flex-start", "center"]} my={3}>
           {copied ? (

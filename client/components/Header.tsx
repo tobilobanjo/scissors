@@ -130,7 +130,7 @@ const Header: FC = () => {
           >
             <Li>
               <ALink
-                href="//github.com//todo"
+                href="https://github.com/tobilobanjo/scissors"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="GitHub"
